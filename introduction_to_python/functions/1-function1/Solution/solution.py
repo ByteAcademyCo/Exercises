@@ -1,4 +1,4 @@
-# Code your solution here
+# Code your solution heree
 def ranger(number):
     if number >=0 and number <=100:
         data="Hooray, Falls in my range"

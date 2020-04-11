@@ -1,8 +1,8 @@
-# Exercise Organization
+# Exercises for Hello World
 
-## Exercise Sections
-* UNIX and Bash
-* Data Types and Control Flow
-* git
-* Introduction to Programming
-* Hello World
+* 1_Arithmetic
+* 1_Name_Bindings
+* 1_Operators
+* 2_Python_Caches
+* 2_String_Arithmetic
+* 3_User_Input

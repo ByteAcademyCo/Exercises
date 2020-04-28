@@ -1,6 +1,6 @@
 # Exercise Organization
 
-| Module ID | Module Name |
+| Section ID | Section Name |
 |:-----------:|:--------:|
 | 1 | [Dictionaries and Arrays](https://github.com/ByteAcademyCo/Exercises/tree/master/data_structures/dictionaries_and_arrays) |
 | 2 | [Linked Lists](https://github.com/ByteAcademyCo/Exercises/tree/master/data_structures/linked_lists) |

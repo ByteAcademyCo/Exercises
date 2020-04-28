@@ -1,6 +1,6 @@
 # Exercise Organization
 
-| Module ID | Module Name |
+| Section ID | Section Name |
 |:-----------:|:--------:|
 | 1 | [Graph Traversal](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/graph_traversal) |
 | 2 | [Sorting](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/sorting) |

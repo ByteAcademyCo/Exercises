@@ -1,3 +1,1 @@
-# Code your solution heree
-X = 0
-Y = 2
+# Code your solution here

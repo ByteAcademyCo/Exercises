@@ -1,67 +1,10 @@
-# [Introduction And Environment](https://byteacademyco.github.io/Introduction-And-Environment/#/)
+## Exercise Sections
 
-## Hello World
-### Integrated Development Environments (IDEs)
-* Visual Studio Code
-* Jupyter Notebook
-### Running Python
-* Invoking the Interpreter
-* Using an Editor
-### Variables and Objects
-* Name Bindings
-* Value
-* ID
-* Type
-### Input and Output
-* `input` and `print`
-* Styling Code
-* Comments
 
-## UNIX and Bash
-### UNIX
-* Intro to Operating Systems
-* UNIX navigation
-* File configuration
-
-## Git
-### Version Control
-* Introduction
-* Repositories
-* Branches
-* Workflows
-* Merge Conflits
-### Git Functionality
-* Initialization
-* Staging Area
-* Local Repository
-* Remote Repository
-* Forking 
-* Cloaning
-* Merging
-
-## Introduction to Programming
-### Computer Architecture
-### Programming Languages
-### Boolean Logic
-
-## Data Types and Control Flow
-### Basic Data Types
-* Int
-* Float
-* Bool
-* String
-### Compound Data Types
-* List
-* Tuple
-* Dictionary
-* Set
-### Conditionals
-* Basics
-* Ternary Operator
-* If/if vs if/elif
-### Iteration
-* Basics
-* While vs For Loop
-* Over various types
-* Over range vs set
-* Comprehensions
+| Section ID | Section Name |
+|:-----------:|:--------:|
+| 1 | [UNIX and Bash](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash) |
+| 2 | [Data Types and Control Flow](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/data_types_and_control_flow) |
+| 3 | [Git](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/git) |
+| 4 | [Introduction to Programming](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming) |
+| 5 | [Hello World](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world) |

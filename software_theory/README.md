@@ -1,37 +1,9 @@
-# [Software Theory](https://byteacademyco.github.io/Software-Theory/)
+# Exercise Organization
 
-## Databases
-### Relational Data
-### Database Schemas
-### Python ORM
-
-## SQL
-### SQL Basics
-### Data Manipulation
-### Joining Tables
-
-## Networks
-### Network Architecture
-### Protocol Layers
-### Application Layer Protocols
-### Requests Library
-
-## Testing
-### Basics
-* Using Pytest
-* Test autodiscovery
-### Markers
-* xskip
-* xfail
-### Parameterization
-* Exhaustive testing
-* Examples
-### Monkeypatching
-* Mocking
-* Examples
-
-## Python Libraries
-### Collections
-### Pandas
-### Matplotlib
-
+| Section ID | Section Name |
+|:-----------:|:--------:|
+| 1 | [Databases](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/graph_traversal) |
+| 2 | [SQL](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/sorting) |
+| 3 | [Networks](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/bit_manipultion) |
+| 4 | [Testing](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/string_manipulation) |
+| 5 | [Python Libraries](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/dynamic_programming) |

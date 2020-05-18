@@ -1,65 +1,9 @@
-# [Introduction to Python](https://byteacademyco.github.io/Introduction-To-Python/#/)
+# Exercise Organization
 
-![Pedagogy](https://github.com/ByteAcademyCo/Introduction-To-Python/blob/master/docs/images/Intro%20to%20Python%20Pedagogy.png)
-
-## Functions
-### Basics
-* Python Memory Manipulation
-* Formal Definition
-* Args, Kwargs
-### Scope
-* Terminology
-* Blocks
-* LEGB Scope
-* Leaky
-* global, nonlocal
-### Functional Programming
-* ```map```
-* ```filter```
-* Lambda functions
-### Complexity Theory
-* Definition
-* Performance Analysis
-* Examples
-
-## Recursive Functions
-### Introduction to Recursion
-* Definitions
-* Sum-List
-### Complexity Analysis
-* Sum-List
-* Fibonacci Numbers
-### Interview Problems
-* Convert Decimal String to Integer
-* Convert Hexadecimal String to Integer
-
-#### Object Oriented Programming
-### Classes
-* Initialization
-* Attributes and Methods
-* Accessors and Mutators
-* Inheritance
-### Python Features
-* Context Managers
-* Exceptions
-* Modules
-
-## Class Protocols
-### Introduction to Protocols
-* What is a Protocol?
-* Python Protocols
-### Common Protocols
-* Length
-* Print
-* Arithmetic
-* Comparison
-* Index
-* Slice
-* Iteration
-* Others
-
-## MVC Architecture
-### Model
-### View
-### Controller
-
+| Section ID | Section Name |
+|:-----------:|:--------:|
+| 1 | [Functions](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_to_python/functions) |
+| 2 | [Recursive Functions](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_to_python/recursion) |
+| 3 | [Classes](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_to_python/classes) |
+| 4 | [Class Protocols](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_to_python/class_protocols) |
+| 5 | [MVC Architecture](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_to_python/mvc_architecture) |

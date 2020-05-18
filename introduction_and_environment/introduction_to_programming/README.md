@@ -2,14 +2,10 @@
 
 | Exercise ID | Exercise |
 |:-----------:|:--------:|
-| easy_e1 | [Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_arithmetic) |
-| easy_e2 | [Concatenation](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_concatenate) |
-| easy_e3 | [Name Bindings](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_name_bindings) |
-| easy_e4 | [Operators](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_operators) |
-| medium_e1 | [Capture Display](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_capture_display) |
-| medium_e2 | [Python Caches](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_python_caches) |
-| medium_e3 | [String Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_arithmetic) |
-| medium_e4 | [String Duplication](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_duplicate) |
-| medium_e5 | [Type Checking](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_type_check) |
-| hard_e1 | [Type Change](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_type_change) |
-| hard_e2 | [User Input](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_user_input) |
+| easy_e1| [Even Odd](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/1_even_odd) |
+| easy_e2| [String Convert](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/1_string_convert) |
+| medium_e1 | [Add Item](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_add_item) |
+| medium_e2 | [Except Letter](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_except_letter) |
+| medium_e3| [Farm Area](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_farm_area) |
+| hard_e1 | [Month Days](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/3_month_days) |
+| hard_e2 | [String Case](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/3_string_case) |

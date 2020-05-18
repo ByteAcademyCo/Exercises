@@ -1,6 +1,6 @@
 # [Algorithms](https://byteacademyco.github.io/Algorithms/#/)
 
-## Graph Traversal
+## Graph Traversals
 ### Introduction to Graphs
 ### Depth-First Traversal
 ### Breadth-First Traversal

@@ -2,14 +2,10 @@
 
 | Exercise ID | Exercise |
 |:-----------:|:--------:|
-| easy_e1 | [Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_arithmetic) |
-| easy_e2 | [Concatenation](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_concatenate) |
-| easy_e3 | [Name Bindings](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_name_bindings) |
-| easy_e4 | [Operators](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_operators) |
-| medium_e1 | [Capture Display](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_capture_display) |
-| medium_e2 | [Python Caches](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_python_caches) |
-| medium_e3 | [String Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_arithmetic) |
-| medium_e4 | [String Duplication](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_duplicate) |
-| medium_e5 | [Type Checking](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_type_check) |
-| hard_e1 | [Type Change](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_type_change) |
-| hard_e2 | [User Input](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_user_input) |
+| easy_e1 | [Compare Check](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/1_compuare_check) |
+| easy_e2 | [List Max](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/1_list_max) |
+| medium_e1 | [Remove Item](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_remove_item) |
+| medium_e2 | [Sum List](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_sum_list) |
+| medium_e3 | [Vowel Consonant](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_vowel_consonant) |
+| hard_e1 | [Palindrome](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/3_palindrome) |
+| hard_e2 | [Set Diff](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/3_set_diff) |

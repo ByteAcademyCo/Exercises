@@ -22,7 +22,7 @@
 * Performance Analysis
 * Examples
 
-## Recursive Functions
+## Recursion
 ### Introduction to Recursion
 * Definitions
 * Sum-List
@@ -33,7 +33,7 @@
 * Convert Decimal String to Integer
 * Convert Hexadecimal String to Integer
 
-## Object Oriented Programming
+#### Object Oriented Programming
 ### Classes
 * Initialization
 * Attributes and Methods

@@ -1,9 +1,29 @@
-# Exercise Organization
+# [Algorithms](https://byteacademyco.github.io/Algorithms/#/)
 
-| Section ID | Section Name |
-|:-----------:|:--------:|
-| 1 | [Graph Traversal](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/graph_traversal) |
-| 2 | [Sorting](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/sorting) |
-| 3 | [Bit Manipulation](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/bit_manipultion) |
-| 4 | [String Manipulation](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/string_manipulation) |
-| 5 | [Dynamic Programming](https://github.com/ByteAcademyCo/Exercises/tree/master/algorithms/dynamic_programming) |
+## Graph Traversal
+### Introduction to Graphs
+### Depth-First Traversal
+### Breadth-First Traversal
+
+## Sorting
+### Counting Sort
+### Merge Sort
+### Quick Sort
+### Heap Sort
+
+## Bit Manipulation
+### Boolean Operators
+### Integer Representation
+### Interview Problems
+
+## String Manipulation
+### Python String Methods
+### Complex Manipulations
+### Palindrome Problems
+### Rotation Problems
+
+## Dynamic Programming
+### Fibonacci Numbers
+### Coin Change
+### Maximal Square
+

@@ -22,7 +22,7 @@
 * Performance Analysis
 * Examples
 
-## Recursion
+## Recursive Functions
 ### Introduction to Recursion
 * Definitions
 * Sum-List

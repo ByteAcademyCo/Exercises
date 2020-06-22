@@ -9,7 +9,7 @@ Determine how many of the 7 operators listed above work on the `str` type and st
 Hint: Don't just try arithmetic with strings and strings, try arithmetic with strings and integers as well
 
 ## Testing
-* To test your solution, type 'pytest' within the **Solutions** subdirectory
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
-* Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory
+* Submit your answers in the *solution.py* file within the *solution* subdirectory within this directory

@@ -27,9 +27,9 @@ Your goal is to determine what range of integers Python saves in memory (caches)
 * b) What is the upper bound of the range?
 
 ## Testing
-* To test your solution, type 'pytest' within the **Solutions** subdirectory
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
-* Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory
-* The file contains 2 variables - `LOWER_BOUND` and `UPPER_BOUND representing each bound respectively
+* Submit your answers in the *solution.py* file within the *solution* subdirectory within this directory
+* The file contains 2 variables - `LOWER_BOUND` and `UPPER_BOUND` representing each bound respectively
 * Overwrite these numbers with your answers

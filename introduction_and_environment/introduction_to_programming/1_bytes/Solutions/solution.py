@@ -1,0 +1,2 @@
+Answer = "Gigabyte"
+print(Answer)

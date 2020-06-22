@@ -2,10 +2,8 @@
 
 | Exercise ID | Exercise |
 |:-----------:|:--------:|
-| easy_e1 | [Compare Check](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/1_compuare_check) |
-| easy_e2 | [List Max](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/1_list_max) |
-| medium_e1 | [Remove Item](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_remove_item) |
-| medium_e2 | [Sum List](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_sum_list) |
-| medium_e3 | [Vowel Consonant](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/2_vowel_consonant) |
-| hard_e1 | [Palindrome](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/3_palindrome) |
-| hard_e2 | [Set Diff](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/unix_and_bash/3_set_diff) |
+| easy_e1 | [Basic Commands](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/unix_and_bash/1_basic_commands) |
+| easy_e2 | [Commands With Options](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/unix_and_bash/1_commands_with_options) |
+| easy_e3 | [Commands With Options 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/unix_and_bash/1_commands_with_options_2) |
+| medium_e1 | [Intermediate Commands](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/unix_and_bash/2_intermediate_commands) |
+| hard_e1 | [Star Wars](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/unix_and_bash/3_star_wars) |

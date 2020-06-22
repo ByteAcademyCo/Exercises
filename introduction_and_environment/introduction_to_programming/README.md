@@ -1,11 +1,15 @@
-# Introduction and Environment Exercises
+# Introduction To Programming Exercises
+
 
 | Exercise ID | Exercise |
 |:-----------:|:--------:|
-| easy_e1| [Even Odd](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/1_even_odd) |
-| easy_e2| [String Convert](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/1_string_convert) |
-| medium_e1 | [Add Item](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_add_item) |
-| medium_e2 | [Except Letter](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_except_letter) |
-| medium_e3| [Farm Area](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/2_farm_area) |
-| hard_e1 | [Month Days](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/3_month_days) |
-| hard_e2 | [String Case](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/introduction_to_programming/3_string_case) |
+| easy_e1 | [Architecture](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_architecture) |
+| easy_e2 | [DNS](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_DNS) |
+| easy_e3 | [Bytes](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_bytes) |
+| easy_e4 | [Languages](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_languages) |
+| medium_e1 | [ASCII](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/2_ASCII) |
+| medium_e2 | [Operators](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/2_operators) |
+| hard_e1 | [Logical Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_1) |
+| hard_e2 | [Logical Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_2) |
+| hard_e3 | [Bitwise Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_1) |
+| hard_e4 | [Bitwise Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_2) |

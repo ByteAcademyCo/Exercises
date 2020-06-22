@@ -1,8 +1,8 @@
 # Exercise Organization
 
 ## Exercise Sections
+* Hello World
 * UNIX and Bash
-* Data Types and Control Flow
 * git
 * Introduction to Programming
-* Hello World
+* Data Types and Control Flow

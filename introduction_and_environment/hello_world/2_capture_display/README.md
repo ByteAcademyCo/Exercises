@@ -5,6 +5,7 @@ Python provides us with the input() keyword in order to capture data from the us
 
 ## Problem Description
 Write a Python script that asks the user for name and age . Store these values  in `name`, `age` objects respectively.
+
 Print the values.
 
 ## Testing

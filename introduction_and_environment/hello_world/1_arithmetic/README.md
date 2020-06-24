@@ -1,9 +1,9 @@
 # Arithmetic
 
 ## Problem Description
-The *soluyion.py* file contains 2 integers `x` and `y` whos contents is hidden from you (The default values of 0 are placeholders). Below is a table of 10 names you must create and the associated values they should be bound to.
+The *solution.py* file contains 2 variables `x` and `y` whose contents are hidden from you (the default values of 0 are placeholders). Below is a table of 7 variables you must create and the associated values they should be bound to.
 
-  Name      | Value
+  Variable  | Value
 :----------:|:-----:
 `SUM`       | `x + y`
 `DIFF`      | `x - y`
@@ -14,7 +14,7 @@ The *soluyion.py* file contains 2 integers `x` and `y` whos contents is hidden f
 `REMAINDER` | `x % y`
 
 ## Testing
-* To test your solution, type 'pytest' within the **Solutions** subdirectory
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
-* Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory
+* Submit your answers in the *solution.py* file within the *solution* subdirectory within this directory

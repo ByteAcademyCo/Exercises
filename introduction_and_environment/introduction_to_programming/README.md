@@ -1,15 +1,15 @@
-# Introduction and Environment Exercises
+# Introduction To Programming Exercises
+
 
 | Exercise ID | Exercise |
 |:-----------:|:--------:|
-| easy_e1 | [Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_arithmetic) |
-| easy_e2 | [Concatenation](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_concatenate) |
-| easy_e3 | [Name Bindings](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_name_bindings) |
-| easy_e4 | [Operators](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_operators) |
-| medium_e1 | [Capture Display](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_capture_display) |
-| medium_e2 | [Python Caches](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_python_caches) |
-| medium_e3 | [String Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_arithmetic) |
-| medium_e4 | [String Duplication](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_duplicate) |
-| medium_e5 | [Type Checking](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_type_check) |
-| hard_e1 | [Type Change](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_type_change) |
-| hard_e2 | [User Input](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_user_input) |
+| easy_e1 | [Architecture](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_architecture) |
+| easy_e2 | [DNS](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_DNS) |
+| easy_e3 | [Bytes](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_bytes) |
+| easy_e4 | [Languages](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/1_languages) |
+| medium_e1 | [ASCII](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/2_ASCII) |
+| medium_e2 | [Operators](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/2_operators) |
+| hard_e1 | [Logical Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_1) |
+| hard_e2 | [Logical Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_2) |
+| hard_e3 | [Bitwise Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_1) |
+| hard_e4 | [Bitwise Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_2) |

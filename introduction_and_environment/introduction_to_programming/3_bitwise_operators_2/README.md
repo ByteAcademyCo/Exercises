@@ -13,7 +13,7 @@ Given two binary values x and y, compute the following bitwise operations on tha
 Return the solutions in objects `Answer_Xor`,`Answer_right_shift` and `Answer_left_shift` respectively and print the same.
 
 ## Testing
-* done
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory

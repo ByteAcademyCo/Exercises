@@ -4,7 +4,7 @@
 
 
 ## Problem Description 
-Given two binary values x and y, compute the following bitwise operations on that 
+Given two binary values x and y, compute the following bitwise operations on them: 
 
 1.Bitwise AND (&)
 2.Bitwise OR (|)
@@ -13,7 +13,7 @@ Given two binary values x and y, compute the following bitwise operations on tha
 Return the solutions in objects `Answer_and`,`Answer_or` and `Answer_not` respectively and print the same.
 
 ## Testing
-* done
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory

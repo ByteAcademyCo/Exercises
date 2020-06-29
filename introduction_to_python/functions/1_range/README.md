@@ -2,10 +2,9 @@
 
 ## Problem Description
 Write a Python function that asks the user for any integer value stored in object `number`.
-Your goal is to check if value is less than equal to 100 -Display data "GREATNESS" else  "OOPS"  stored inside variable  `data`.
-Create an  `object` result which performs function call to return data. 
+Your goal is to check if that value is less than or equal to 100. If it is, return "GREATNESS"; otherwise, return "OOPS".
+Create an variable `result` which performs function call to return data. 
 Print the data. 
-
 
 ## Testing
 * done

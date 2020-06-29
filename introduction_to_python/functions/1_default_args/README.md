@@ -7,9 +7,9 @@ Python allows us to update the default value from the function call.
 
 ## Problem Description
 Write a Python function that contains 2 default arguements of string type. 
-Your goal is concat the arguements and store in variable `data` 
-Create an  object  `result` which performs function call to return data. 
-Print the data. 
+Your goal is concatenate the arguments and store the result in a variable `data`.
+Create an object `result` and assign the output of the function call to it. 
+Print `result`. 
 
 ## Testing
 * done

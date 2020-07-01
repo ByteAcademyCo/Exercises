@@ -1,13 +1,11 @@
 # Count Even 
 
 ## Problem Description
-Write a python function with a variable-length arguement feature to find numbers that are even in nature.
+Write a python function that accepts an arbitrary number of keyword arguments and figures out how many of its inputs are even.
 
-Your goal is to create an object `result` which will perform function call by passing a series of integer values. 
-Compute the logic and return the data.
+Your goal is to create a variable `result` which will perform the function call by passing a series of integer values. 
 
-Print the data. 
-
+Print the number (total count) of elements in the input that are even. 
 
 ## Testing
 * done

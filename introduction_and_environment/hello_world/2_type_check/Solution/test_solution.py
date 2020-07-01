@@ -24,6 +24,3 @@ def test_solution(monkeypatch):
     import solution
     assert solution.input_1==1
     assert solution.input_2==2.0
-
-
-

@@ -1,10 +1,8 @@
-# Git exercises
+# Exercises for Git
 
-
-| Exercise ID | Exercise |
-|:-----------:|:--------:|
-| easy_e1 | [Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_arithmetic) |
-| easy_e2 | [Concatenation](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/1_concatenate) |
-| medium_e1 | [Python Caches](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_python_caches) |
-| medium_e2 | [String Arithmetic](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/2_string_arithmetic) |
-| hard_e1 | [Type Change](https://github.com/ByteAcademyCo/Exercises/tree/master/introduction_and_environment/hello_world/3_type_change) |
+| **Exercise ID** | **Exercise** |
+|:---------------:|:-------------------:|
+| easy_e1 | [Staging Area](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/git/easy_e1) |
+| easy_e2 | [Remote Repo](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/git/easy_e2) |
+| easy_e3 | [Updating Code](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/git/easy_e3) |
+| easy_e4 | [Creating a Repository](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/git/easy_e4) |

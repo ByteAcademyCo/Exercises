@@ -1,14 +1,16 @@
 # Shut Down
 
 ## Motivation
-Keyword arguments allow caller to specify argument name with values so that the caller does not need to remember order of parameters. 
-Boolean type- True/ False 
+Keyword arguments allow the caller of a function to specify argument names with values so that the caller does not need to remember the order of any parameters. 
+
+Boolean type- `True`/ `False` 
+
 ## Problem Description
-Write a Python function that asks the user for a boolean value residing in variable `x`.
-Your goal is to check whether the variable is "true"-return "SHUTDOWN" Else "SHUTDOWN ABORTED" sorted in variable `data`.
-If user enters any other value, the program must display an appropriate message. 
-Create an  object  `result` which performs function call to return data. 
-Print the data. 
+Write a Python function that asks the user for a boolean value stored in variable `x`.
+Your goal is to check whether the variable is `True`-return "SHUTDOWN", otherwise return "SHUTDOWN ABORTED". sorted in variable `data`.
+If the user enters any other value, the program must display an appropriate message. 
+Create a variable `result` and assign the output of the functionc all to it. 
+Print `result`. 
 
 
 ## Testing

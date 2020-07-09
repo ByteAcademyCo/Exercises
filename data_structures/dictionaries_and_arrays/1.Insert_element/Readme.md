@@ -10,7 +10,7 @@ Index − Each location of an element in an array has a numerical index, which i
 ## Problem Description 
 Write a Python script that inserts the given value in the given position of the array.
 Create an array of integers stored in a variable `arr` 
-Ask the user to enter the position and value to insert ,store the values in `ins_pos`and
+Ask the user to enter the position and value to insert, store the values in `ins_pos`and
 `ins_val` objects respectively.print the modified array `arr`.
 
 ## Testing

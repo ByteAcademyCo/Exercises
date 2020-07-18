@@ -1,3 +1,3 @@
-def factorial_recursive(n):
-    return 1 if n is 1 else n * factorial_recursive(n-1)
+def factorial_recursive(integer: int) -> int:
+    return 1 if integer is 0 else integer * factorial_recursive(integer - 1)
 

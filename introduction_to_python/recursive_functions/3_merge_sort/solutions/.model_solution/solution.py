@@ -1,10 +1,8 @@
 def merge_sort(numbers: list) -> list:
-    numbers_length = len(numbers)
-
-    if numbers_length < 2:
+    if len(numbers) < 2:
         return numbers
 
-    middle_index = numbers_length // 2
+    middle_index = len(numbers) // 2
     left_half = numbers[:middle_index]
     right_half = numbers[middle_index:]
 
@@ -13,7 +11,6 @@ def merge_sort(numbers: list) -> list:
 
 def _merge(left: list, right: list) -> list:
     merged_list = []
-
     left_index = right_index = 0
 
     while left_index < len(left) and right_index < len(right):
@@ -24,10 +21,10 @@ def _merge(left: list, right: list) -> list:
             merged_list.append(right[right_index])
             right_index += 1
 
-    for list_index, list_ in ((left_index, left), (right_index, right)):
-        while list_index < len(list_):
-            merged_list.append(list_[list_index])
-            list_index += 1
+    for index, numbers in ((left_index, left), (right_index, right)):
+        while index < len(numbers):
+            merged_list.append(numbers[index])
+            index += 1
 
     return merged_list
 

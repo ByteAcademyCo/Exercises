@@ -1,32 +1,30 @@
-def merge_sort(num_list):
-    if len(num_list)>1:                 
-        mid = int(len(num_list)/2)      
-        lefthalf = num_list[:mid]       
-        righthalf = num_list[mid:]     
+def merge_sort(numbers: list) -> list:
+    if len(numbers) < 2:
+        return numbers
 
-        merge_sort(lefthalf)
-        merge_sort(righthalf)
+    middle_index = len(numbers) // 2
+    left_half = numbers[:middle_index]
+    right_half = numbers[middle_index:]
 
-        i=0
-        j=0
-        k=0
-        
-        while i < len(lefthalf) and j < len(righthalf):
-            if lefthalf[i] < righthalf[j]:
-                num_list[k]=lefthalf[i]
-                i=i+1
-            else:
-                num_list[k]=righthalf[j]
-                j=j+1
-            k=k+1
+    return _merge(merge_sort(left_half), merge_sort(right_half))
 
-        while i < len(lefthalf):
-            num_list[k]=lefthalf[i]
-            i=i+1
-            k=k+1
 
-        while j < len(righthalf):
-            num_list[k]=righthalf[j]
-            j=j+1
-            k=k+1
-        return num_list
+def _merge(left: list, right: list) -> list:
+    merged_list = []
+    left_index = right_index = 0
+
+    while left_index < len(left) and right_index < len(right):
+        if left[left_index] < right[right_index]:
+            merged_list.append(left[left_index])
+            left_index += 1
+        else:
+            merged_list.append(right[right_index])
+            right_index += 1
+
+    for index, numbers in ((left_index, left), (right_index, right)):
+        while index < len(numbers):
+            merged_list.append(numbers[index])
+            index += 1
+
+    return merged_list
+

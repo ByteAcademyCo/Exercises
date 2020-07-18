@@ -13,24 +13,22 @@ def merge_sort(numbers: list) -> list:
 
 def _merge(left: list, right: list) -> list:
     total_length = len(left) + len(right)
-    merged_list = [None] * total_length
+    merged_list = []
 
-    left_index = right_index = merged_list_index = 0
+    left_index = right_index = 0
 
     while left_index < len(left) and right_index < len(right):
         if left[left_index] < right[right_index]:
-            merged_list[merged_list_index] = left[left_index]
+            merged_list.append(left[left_index])
             left_index += 1
         else:
-            merged_list[merged_list_index] = right[right_index]
+            merged_list.append(right[right_index])
             right_index += 1
-
-        merged_list_index += 1
 
     for list_index, list_ in ((left_index, left), (right_index, right)):
         while list_index < len(list_):
-            merged_list[merged_list_index] = list_[list_index]
+            merged_list.append(list_[list_index])
             list_index += 1
-            merged_list_index += 1
 
     return merged_list
+

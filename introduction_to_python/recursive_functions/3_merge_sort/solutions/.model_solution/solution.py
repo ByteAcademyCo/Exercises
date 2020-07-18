@@ -12,7 +12,6 @@ def merge_sort(numbers: list) -> list:
 
 
 def _merge(left: list, right: list) -> list:
-    total_length = len(left) + len(right)
     merged_list = []
 
     left_index = right_index = 0

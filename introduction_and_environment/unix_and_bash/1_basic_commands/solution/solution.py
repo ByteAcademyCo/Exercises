@@ -2,9 +2,9 @@
 ONE = 'man'
 
 # Assign the correct strings below
-TWO = ''
-THREE = ''
-FOUR = ''
-FIVE = ''
-SIX = ''
-SEVEN = ''
+TWO = 'ls'
+THREE = 'mkdir'
+FOUR = 'touch'
+FIVE = 'cp'
+SIX = 'mv'
+SEVEN = 'rm'

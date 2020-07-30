@@ -1,8 +1,8 @@
 # Assign the correct strings below
 
-ONE = 'mkdir testdir | cd testdir'
-TWO = 'grep and textfile.txt'
-THREE = 'grep -r >> contents.txt'
+ONE = ''
+TWO = ''
+THREE = ''
 FOUR = ''
 FIVE = ''
 SIX = ''

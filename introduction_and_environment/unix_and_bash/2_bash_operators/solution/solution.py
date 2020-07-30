@@ -1,7 +1,7 @@
 
 # Assign the correct strings below
 ONE = 'mkdir testdir && cd testdir'
-TWO = 'grep and textfile.txt'
-THREE = 'grep -r >> contents.txt'
-FOUR = 'cd current > current'
-FIVE = 'ls > currentpath.txt'
+TWO = 'cat textfile.txt | grep and'
+THREE = 'ls >> contents.txt'
+FOUR = 'cd current || mkdir current'
+FIVE = 'pwd > currentpath.txt'

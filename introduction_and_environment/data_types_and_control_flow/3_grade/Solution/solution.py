@@ -1,20 +1,16 @@
 # Code your solution here
 def grade(mark):
     if mark >= 90:
-        # return 'A+ GRADE'
-        print('A+ GRADE')
+        return 'A+ GRADE'
     elif mark >= 70:
-        # return 'B GRADE'
-        print('B GRADE')
+        return 'B GRADE'
     elif mark >= 50:
-        # return 'C GRADE'
-        print('C GRADE')
+        return 'C GRADE'
     elif mark >= 35:
-        # return 'D GRADE'
-        print('D GRADE')
+        return 'D GRADE'
     else:
-        # return 'FAIL'
-        print('FAIL')
-score = int(input("Enter your grade here:"))
-print(grade(score))
+        return 'FAIL'
+# score = int(input("Enter your grade here:"))
+mark = 80
+print(grade(mark))
 # grade(score)

@@ -49,6 +49,10 @@ def LIST_MAX1(L):
     if L[4] > current_max:
         current_max = L[4]
     return current_max
+<<<<<<< HEAD
 LIST_MAX = LIST_MAX1(L)
 
 >>>>>>> f07cce6... Completed
+=======
+LIST_MAX = LIST_MAX1(L)
+>>>>>>> 6cffc71... Completed Exercises

@@ -1,3 +1,5 @@
-# Code your solution here
 def range_100(number):
-    return
+    if number <= 100:
+        return 'GREATNESS'
+    else:
+        return 'OOPS'

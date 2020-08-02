@@ -16,4 +16,3 @@ def LIST_MAX1(L):
         current_max = L[4]
     return current_max
 LIST_MAX = LIST_MAX1(L)
-

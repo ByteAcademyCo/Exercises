@@ -1,3 +1,5 @@
-# Code your solution here
 def sum_data(lst):
-    return
+    summ = 0
+    for i in l:
+        summ += i
+        return summ

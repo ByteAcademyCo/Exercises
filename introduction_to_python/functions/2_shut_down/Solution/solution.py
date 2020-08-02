@@ -1,3 +1,7 @@
-# Code your solution here
 def shut_down(x):
-    return
+    if x == True:
+        return 'SHUTDOWN'
+    elif x == False:
+        return 'SHUTDOWN ABORTED'
+    else:
+        return 'This is not a boolean value.'

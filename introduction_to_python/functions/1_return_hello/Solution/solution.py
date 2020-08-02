@@ -1,3 +1,3 @@
-# Code your solution here
 def hello(name):
-    return
+    val1 = 'Hello' + name
+    return val1

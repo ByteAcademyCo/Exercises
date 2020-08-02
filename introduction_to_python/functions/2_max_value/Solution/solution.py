@@ -1,3 +1,3 @@
-# Code your solution here
 def max_val(a, b, c):
-    return
+    max_value = max(a, b, c)
+    return max_value

@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 def hello(name):
+<<<<<<< HEAD
     val1 = 'Hello' + name
     return val1
 =======
@@ -12,3 +12,7 @@ def result(name):
 
 print(result(name))
 >>>>>>> 6cffc71... Completed Exercises
+=======
+    val1 = 'Hello ' + name
+    return val1
+>>>>>>> 3f12b16... Updated and completed

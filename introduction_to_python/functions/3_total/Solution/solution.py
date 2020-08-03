@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 def sum_data(lst):
     summ = 0
-    for i in l:
+    for i in lst:
         summ += i
+<<<<<<< HEAD
         return summ
 =======
 # Code your solution here
@@ -18,3 +18,6 @@ def a_list(l):
 result = a_list(l)
 print(result)
 >>>>>>> 6cffc71... Completed Exercises
+=======
+    return summ
+>>>>>>> 3f12b16... Updated and completed

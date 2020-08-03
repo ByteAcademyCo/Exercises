@@ -1,17 +1,14 @@
 # Total
 
 ## Motivation
-Compound data types have a collection of data. What if I need to return the total sum of my data?
-
-Built-in functions can help, but ***DO NOT USE SUM()*** for this exercise.
+Collective data types have a collection of data. What if I need to return the total sum of my data.
+ ***DO NOT USE SUM()***
 
 ## Problem Description
-Write a Python function that takes one argument, a list (named `l`), and returns the sum of the list. 
-
-Store the output of the function in a variable `result` and `print` it.
+Write a Python function `sum_data` that consumes a list of integers `lst` and returns the sum of all the integers in `lst`. Try doing this exercise without using the built in sum() function.
 
 ## Testing
-* done
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
-* Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory
+* Submit your answers in the *solution.py* file within the *solution* subdirectory within this directory

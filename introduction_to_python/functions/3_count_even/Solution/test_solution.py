@@ -1,12 +1,10 @@
-def test_solution(monkeypatch):
-    ret_val1= None
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
+import solution
 
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
+def test_solution():
+    assert solution.count_even(1, 2, 3, 4) == 2
+    assert solution.count_even(1, 3, 5) == 0
+    assert solution.count_even() == 0
+    assert solution.count_even(2, 4, 6, 8, 10) == 5
     
 
 

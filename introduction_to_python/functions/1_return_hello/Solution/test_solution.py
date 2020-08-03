@@ -1,20 +1,11 @@
-def test_solution(monkeypatch):
-    x='Newton'
-    ret_val1= None
+import solution
 
-    def f():
-        nonlocal x
-        return x
+def test_solution():
+    assert solution.hello("Nell") == "Hello Nell"
+    assert solution.hello("Anton") == "Hello Anton"
+    assert solution.hello("Wasif") == "Hello Wasif"
 
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
 
-    monkeypatch.setattr('builtins.input',f)
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
-    assert solution.name==x
 
 
 

@@ -1,20 +1,9 @@
-def test_solution(monkeypatch):
-    x=99
-    ret_val1= None
+import solution
 
-    def f():
-        nonlocal x
-        return x
-
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
-
-    monkeypatch.setattr('builtins.input',f)
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
-    assert solution.number==x
+def test_solution():
+    assert solution.range_100(100) == "GREATNESS"
+    assert solution.range_100(200) == "OOPS"
+    assert solution.range_100(55) == "GREATNESS"
 
 
 

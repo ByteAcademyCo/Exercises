@@ -1,3 +1,3 @@
 # Code your solution here
-def hello(name):
+def div_by_3(*args):
     return

@@ -1,14 +1,7 @@
-def test_solution(monkeypatch):
-    x=[10,20,30,40,50,60]
-    ret_val1= None
+import solution
 
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
-
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
-    assert solution.l==x
-
-
+def test_solution():
+    assert solution.sum_data([]) == 0
+    assert solution.sum_data([1]) == 1
+    assert solution.sum_data([1, 2, 3]) == 6
+    assert solution.sum_data([2, 4, 6, 8]) == 20

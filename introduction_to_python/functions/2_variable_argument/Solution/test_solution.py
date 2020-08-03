@@ -1,14 +1,7 @@
-def test_solution(monkeypatch):
-    ret_val1= None
+import solution
 
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
-
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
-
-
-
+def test_solution():
+    assert solution.concat_args("Hello ", "There") == "Hello There"
+    assert solution.concat_args() == ''
+    assert solution.concat_args("COZY") == "COZY"
 

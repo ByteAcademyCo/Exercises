@@ -1,14 +1,11 @@
 # Count Even 
 
 ## Problem Description
-Write a python function that accepts an arbitrary number of keyword arguments and figures out how many of its inputs are even.
+Write a python function `count_even` with a variable-length arguement `*args` of integers. Count how many even integers are in `*args`  and output the result.
 
-Your goal is to create a variable `result` which will perform the function call by passing a series of integer values. 
-
-Print the number (total count) of elements in the input that are even. 
 
 ## Testing
-* done
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
-* Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory
+* Submit your answers in the *solution.py* file within the *solution* subdirectory within this directory

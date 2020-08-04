@@ -2,6 +2,7 @@ x = 0
 y = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 Answer_and = x & y 
 Answer_or = x | y 
@@ -15,6 +16,12 @@ Answer_and = 0
 Answer_or = 1
 Answer_not = 1, 0
 >>>>>>> 3569546... Exercises completed
+=======
+
+Answer_and = x & y 
+Answer_or = x | y 
+Answer_not = ~ x
+>>>>>>> 39354d0... Completed Exercises
 
 print(Answer_and)
 print(Answer_or)

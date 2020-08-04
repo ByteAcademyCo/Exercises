@@ -1,6 +1,5 @@
-# def concat_args(*args):
-#     return sum(args)
 def concat_args(*args):
+<<<<<<< HEAD
 <<<<<<< HEAD
     return sum(args)
 =======
@@ -14,3 +13,6 @@ print(result)
     args.split([])
     return ' '.join(args)
 >>>>>>> 3f12b16... Updated and completed
+=======
+    return ''.join(args)
+>>>>>>> 95a635a... Completed

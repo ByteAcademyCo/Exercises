@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0
 # L = [152, 463, 1112, 1337, -10]
 # LIST_MAX = sorted(L)[-1]
 
@@ -17,6 +20,7 @@ def LIST_MAX1(L):
     if L[4] > current_max:
         current_max = L[4]
     return current_max
+<<<<<<< HEAD
 LIST_MAX = LIST_MAX1(L)
 =======
 L = [152, 463, 1112, 1337, -10]
@@ -56,3 +60,6 @@ LIST_MAX = LIST_MAX1(L)
 =======
 LIST_MAX = LIST_MAX1(L)
 >>>>>>> 6cffc71... Completed Exercises
+=======
+LIST_MAX = LIST_MAX1(L)
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

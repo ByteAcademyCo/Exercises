@@ -3,6 +3,7 @@ def sum_data(lst):
     for i in lst:
         summ += i
 <<<<<<< HEAD
+<<<<<<< HEAD
         return summ
 =======
 # Code your solution here
@@ -21,3 +22,6 @@ print(result)
 =======
     return summ
 >>>>>>> 3f12b16... Updated and completed
+=======
+    return summ
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

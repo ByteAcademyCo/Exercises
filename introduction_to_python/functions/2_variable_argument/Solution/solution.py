@@ -1,6 +1,7 @@
 def concat_args(*args):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return sum(args)
 =======
 # Code your solution here
@@ -16,3 +17,6 @@ print(result)
 =======
     return ''.join(args)
 >>>>>>> 95a635a... Completed
+=======
+    return ''.join(args)
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

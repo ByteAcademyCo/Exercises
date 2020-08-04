@@ -3,6 +3,7 @@ def range_100(number):
         return 'GREATNESS'
     else:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return 'OOPS'
 =======
 # Code your solution here
@@ -20,3 +21,6 @@ print(result(number))
 =======
         return 'OOPS'
 >>>>>>> 3f12b16... Updated and completed
+=======
+        return 'OOPS'
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

@@ -1,5 +1,6 @@
 def shut_down(x):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Code your solution here
 # x = bool(input('Enter a boolean value: '))
@@ -8,11 +9,14 @@ def data(x):
 >>>>>>> 6cffc71... Completed Exercises
 =======
 >>>>>>> 3f12b16... Updated and completed
+=======
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0
     if x == True:
         return 'SHUTDOWN'
     elif x == False:
         return 'SHUTDOWN ABORTED'
     else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return 'This is not a boolean value.'
@@ -24,3 +28,6 @@ print(result)
 =======
         return 'This is not a boolean value.'
 >>>>>>> 3f12b16... Updated and completed
+=======
+        return 'This is not a boolean value.'
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

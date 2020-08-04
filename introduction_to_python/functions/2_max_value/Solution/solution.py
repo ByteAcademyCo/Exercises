@@ -1,6 +1,7 @@
 def max_val(a, b, c):
     max_value = max(a, b, c)
 <<<<<<< HEAD
+<<<<<<< HEAD
     return max_value
 =======
 # Code your solution here
@@ -18,3 +19,6 @@ print(result(a, b, c))
 =======
     return max_value
 >>>>>>> 3f12b16... Updated and completed
+=======
+    return max_value
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

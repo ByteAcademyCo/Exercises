@@ -9,6 +9,7 @@ def factorial(n):
         for i in range(1, int(n) + 1):
             factorial = factorial * i
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Code your solution here
 # n = int(input(Enter any integer: ))
@@ -26,3 +27,6 @@ print(result)
 =======
     return factorial
 >>>>>>> 3f12b16... Updated and completed
+=======
+    return factorial
+>>>>>>> 95a635a4ecbbedb34125c1f8cacdc445bd0dbfd0

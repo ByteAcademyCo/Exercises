@@ -8,6 +8,9 @@ Write a recursive Python function named `count_ways` that consumes a number `ste
 ```
 countways(4) == 5 # (1, 1, 1, 1), (1, 1, 2), (2, 1, 1), (1, 2, 1), (2, 2)
 ```
+## Testing
+* To test your solution, type 'pytest' within the solution subdirectory
+
 ## Submission
 * Submit your answers in the *solution.py* file within the *solutions* subdirectory within this directory
 

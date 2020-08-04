@@ -7,7 +7,8 @@ Define a recursive Python function named `custom_sort` that consumes one argumen
 ```
 custom_sort([1,6,3,9,0]) == [0,1,3,6,9]
 ```
-
+## Testing
+* To test your solution, type 'pytest' within the solution subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *solutions* subdirectory within this directory

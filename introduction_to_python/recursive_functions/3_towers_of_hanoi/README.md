@@ -11,7 +11,7 @@ For a further explanation on this concept, please consult the [wikipedia](https:
 ## Problem Description
 Define a recursive Python function named `tower_of_hanoi`. The function consumes 4 arguments:
 * `n` - the number of disks
-* `from_rod` - the starting rod with all the disks
+* `from_rod` - the starting rod with all the disks (a list of integers representing the size of the disk)
 * `to_rod` - the desintation rod to end with all the disks
 * `aux_rod` - an auxiliary rod to assist with moving the disks
 
@@ -19,9 +19,11 @@ The function returns the minimal number of moves required to get all the disks f
 
 ## Examples
 ```
-tower_of_hanoi(2) == 3
-tower_of_hanoi(3) == 7
+tower_of_hanoi(2, [2, 1], [], []) == 3
+tower_of_hanoi(3, [3, 2, 1], [], []) == 7
 ```
+## Testing
+* To test your solution, type 'pytest' within the solution subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *solutions* subdirectory within this directory

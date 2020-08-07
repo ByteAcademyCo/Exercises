@@ -1,0 +1,3 @@
+
+def store(result):
+    return 

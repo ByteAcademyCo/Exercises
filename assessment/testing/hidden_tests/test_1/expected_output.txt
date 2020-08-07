@@ -1,0 +1,5 @@
+Wasif Enrolled.
+Vending Machine cost for Mountain-Dew is $11
+Error: Insufficent Funds.
+Vending Machine cost for Mountain-Dew is $10
+Wasif Bought Mountain-Dew.

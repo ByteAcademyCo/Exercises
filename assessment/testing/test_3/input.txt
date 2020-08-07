@@ -1,0 +1,16 @@
+enroll_student Wasif
+enroll_student Anton
+enroll_student Smith
+buy_soda Wasif Coca-Cola
+set_machine_cost Mountain-Dew 5
+buy_soda Anton Mountain-Dew
+buy_soda Smith Mountain-Dew
+get_university_funds
+get_machine_stock
+set_shop_cost Mountain-Dew 100
+refill_vm Coca-Cola 5 Sprite 5 Mountain-Dew 2
+refill_vm Coca-Cola 5 Sprite 5 Mountain-Dew 0
+buy_soda Wasif Mountain-Dew
+buy_soda Wasif Mountain-Dew
+get_machine_stock
+quit

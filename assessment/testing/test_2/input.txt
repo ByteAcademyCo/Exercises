@@ -1,0 +1,10 @@
+add_funds Wasif 10
+buy_soda Wasif Coca-Cola
+refill_vm Coca-Cola 10 Sprite 10 Mountain-Dew 10
+get_student_funds Wasif
+enroll_student Wasif
+enroll_student Wasif
+set_machine_cost Coca-Cola 100
+get_student_funds Wasif
+buy_soda Wasif Coca-Cola
+quit

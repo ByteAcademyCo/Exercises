@@ -1,0 +1,7 @@
+enroll_student Wasif
+add_funds Wasif 100
+buy_soda Wasif Sprite
+get_university_funds
+get_student_funds Wasif
+get_vending_machine_stock
+quit

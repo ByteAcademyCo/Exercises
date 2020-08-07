@@ -1,0 +1,5 @@
+enroll_student Wasif
+set_machine_cost Mountain-Dew 11
+buy_soda Wasif Mountain-Dew
+set_machine_cost Mountain-Dew 10
+buy_soda Wasif Mountain-Dew

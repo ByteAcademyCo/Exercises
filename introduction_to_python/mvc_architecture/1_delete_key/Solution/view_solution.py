@@ -1,5 +1,5 @@
 def delete_key():
-    return
+    return f'What key do you want to delete?: '
 
 def display(final_list):
-    return
+    return f'{final_list}'

@@ -1,6 +1,6 @@
 def ask_fruit():
-    return
+    return f'Enter a fruit: '
 
 def show_fruits(fruits):
-    return
+    return f'{fruits}'
 

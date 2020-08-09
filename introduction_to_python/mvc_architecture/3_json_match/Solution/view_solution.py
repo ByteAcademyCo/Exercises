@@ -1,11 +1,11 @@
 def show_list(data_list):
-    return
+    return f'{data_list}'
 
 def retrive_sport():
-    return
+    return f'Which sport are you looking for?: '
 
 def retrive_country():
-    return
+    return f'Which country are you looking for?: '
 
 def display(sport,country):
-    return
+    return f'{sport} {country}'

@@ -1,10 +1,8 @@
 def ask_fileName():
-    return
+    return f'What is the name of the file you are searching for?: '
 
 def ask_content():
-    return
+    return f'What content are you searching for?: '
 
 def display(data):
-    return
-
-
+    return f'{data}'

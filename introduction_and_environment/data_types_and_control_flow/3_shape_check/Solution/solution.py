@@ -1,5 +1,6 @@
 # Code your solution here
-figure = input('Enter any geometric shape value:')
+# figure = input('Enter any geometric shape value:')
+figure = '5'
 my_dict = {'3':'Triangle', '4':'Quadrilateral', '5':'Pentagon', '6':'Hexagon', '7':'Heptagon', '8':'Octagon', '9':'Nonagon'}
 
 def data(figure):

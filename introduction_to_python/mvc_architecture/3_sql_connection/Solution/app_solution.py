@@ -1,7 +1,8 @@
 import view_solution as view
 import model_solution as model
 
-result = model.create()
-print(result)
-data = view.display(result_1, result_2)
+model.create()
+result = model.query()
+for i in range(len(result)):
+    data = view.display(result[i][0], result[i][1])
 print(data)

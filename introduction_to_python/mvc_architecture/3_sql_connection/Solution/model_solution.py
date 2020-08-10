@@ -1,17 +1,21 @@
 import sqlite3 
 
-DB_name = 'myDB'
 
-def create(db=None):
-    if db is None:
-        mydb = ':memory:'
-        return mydb 
-    else:
-        mydb = '{}.db'.format(db)
-        return db
-    connection = sqlite3.connect(db)
-    return connection
+def create():
+    connection = sqlite3.connect('db.db')
+    cursor = connection.cursor()
+    query = 'CREATE TABLE IF NOT EXISTS student(student_id integer , student_name text);'
+    cursor.execute(query)
+    return
     
-def query(connection, create_table_student):
-    c = connection.cursor()
-    return c.execute(create_table_student)
+def query():
+    connection=sqlite3.connect('db.db')
+    cursor=connection.cursor()
+    query="INSERT INTO student VALUES(1,'abc');"
+    cursor.execute(query)
+    query="INSERT INTO student VALUES(2,'xyz');"
+    cursor.execute(query)
+    query="SELECT * FROM student;"
+    cursor.execute(query)
+    data=cursor.fetchall()
+    return data

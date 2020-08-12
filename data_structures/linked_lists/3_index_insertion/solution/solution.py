@@ -7,12 +7,12 @@ class linkedList:
     def __init__(self, head=None):
         self.head = head
     def insert_at_index(self, index, data):
-        start_node = self.head
-        if index == 0:
-            return Node(data, self.head)
-        while index > 1:
-            self.head = start_node.next
-            index -=1
-        start_node.next = Node(data, start_node.next)
-        return start_node
-        
+        current_index = 1
+        current_node = self.head
+        while current_index < index-1:
+            current_node = current_node.next
+            current_index +=1
+        next_node = current_node.next
+        new_node = Node(data)
+        new_node.next = next_node
+        current_node.next = new_node

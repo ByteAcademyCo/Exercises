@@ -27,11 +27,11 @@ class Stack:
             return value
         else:
             raise IndexError
-    def __bool__(self):
-        if self.head_node is None:
-            return False
-        else:
-            return True
+    # def __bool__(self):
+    #     if self.head_node is None:
+    #         return False
+    #     else:
+    #         return True
     def __len__(self):
         current_node = self.head_node
         number_nodes = 0

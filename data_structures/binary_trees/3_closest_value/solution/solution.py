@@ -7,7 +7,5 @@ class Node:
 
 
 def closest_value(node, target):
-    return
-
-
-
+    a = node.key
+    child = node.left if target < a else node.right

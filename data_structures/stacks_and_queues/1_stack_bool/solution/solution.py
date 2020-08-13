@@ -22,4 +22,7 @@ class Stack:
 
     # Fill in the code for __bool__
     def __bool__(self):
-        return
+        if self.head_node is None:
+            return False
+        else:
+            return True

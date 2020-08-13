@@ -29,4 +29,9 @@ class Queue:
 
     # Fill in the code for __len__
     def __len__(self):
-        return
+        current_node = self.head_node
+        number_nodes = 0
+        while current_node:
+            number_nodes += 1
+            current_node = current_node.next
+        return number_nodes

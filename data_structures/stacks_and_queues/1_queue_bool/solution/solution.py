@@ -28,6 +28,8 @@ class Queue:
 
     # Fill in the code for __bool__
     def __bool__(self):
-        return
-
-
+        # return self.head_node != None
+        if self.head_node is None:
+            return False
+        else:
+            return True

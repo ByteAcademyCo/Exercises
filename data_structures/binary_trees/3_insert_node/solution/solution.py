@@ -6,17 +6,23 @@ class Node:
         self.key = key
     
     # Fill in your code here
+    def inorder_nodes(self):
+        if not self:
+            return []
+        leftNodes = self.left.inorder_nodes() if self.left else []
+        rightNodes = self.right.inorder_nodes() if self.right else []
+        return [self] + leftNodes + rightNodes
+
+
     def insert(self, key):
-        if self.key:
-            if key < self.key:
-                if self.left is None:
-                    self.left = Node(key)
-                else:
-                    self.left.insert(key)
-            else:
-                if self.right is None:
-                    self.right = Node(key)
-                else:
-                    self.right.insert(key)
-        else:
-            self.key = key
+        if not self: 
+            return Node(key)
+        node_lst = self.inorder_nodes()
+        for node in node_lst:
+            if not node.left:
+                node.left = Node(key)
+                return
+            elif not node.right:
+                node.right = Node(key)
+                return
+        return

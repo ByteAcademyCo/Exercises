@@ -8,7 +8,7 @@ class Node:
 def search(root, key):
     if root is None:
         return False
-    if key == root.key:
+    elif key == root.key:
         return True
     elif root.key > key:
         return search(root.left, key)

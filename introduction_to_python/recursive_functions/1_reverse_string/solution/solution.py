@@ -1,3 +1,6 @@
 # Write your solution here
 def reverse(string):
-    return
+    if string == '':
+        return ''
+    else:
+        return reverse(string[1:]) + string[0]

@@ -1,5 +1,3 @@
 
 def display(result_1,result_2):
-    return
-
-
+    return f'{result_1} {result_2}'

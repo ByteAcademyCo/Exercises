@@ -1,3 +1,9 @@
-# Code your solution here
+# x = bool(input('Enter a boolean value: '))
+x = 'false'
 def shut_down(x):
-    return
+    if x == True:
+        return 'SHUTDOWN'
+    elif x == False:
+        return 'SHUTDOWN ABORTED'
+    else:
+        return '.'

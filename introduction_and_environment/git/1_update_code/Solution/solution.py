@@ -1,2 +1,2 @@
 # Code your solution here
-answer = ''
+answer = 'b'

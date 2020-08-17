@@ -4,4 +4,6 @@ def get_store():
     return fruits
 
 def update_fruit(fruit):
-    return 
+    # fruits.append(fruit)
+    for index, value in enumerate(fruits):
+        return index,value

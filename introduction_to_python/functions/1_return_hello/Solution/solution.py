@@ -1,3 +1,5 @@
-# Code your solution here
+# name = input('Enter your name: ')
+name = 'Newton'
 def hello(name):
-    return
+    val1 = 'Hello' +' '+ name
+    return val1

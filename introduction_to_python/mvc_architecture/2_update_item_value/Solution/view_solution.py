@@ -1,11 +1,11 @@
 def show_list(program_list):
-    return
+    return f'{program_list}'
 
 def update_key():
-    return
+    return f'Enter a key: '
 
 def enter_value():
-    return
+    return f'Enter a value: '
 
 def display(new_list):
-    return
+    return f'{new_list}'

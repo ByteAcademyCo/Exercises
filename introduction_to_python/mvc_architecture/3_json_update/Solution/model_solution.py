@@ -3,13 +3,12 @@ match_data={"sports":["Football","Soccer","Tennis","Cricket","Basketball"],"coun
 data_match=json.dumps(match_data)
 
 def get_list():
-    return
+    return str(data_match)
 
 def retrive_match(sport,country):
-    return
-
-
-
-    
-    
-
+    x = json.loads(data_match)
+    sport_lst=x['sports']
+    sport_lst.append(sport)
+    country_lst=x['country']
+    country_lst.append(country)
+    return x

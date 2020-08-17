@@ -1,3 +1,2 @@
-# Code your solution here
 def count_even(*args):
-    return
+    return len(list(filter(lambda x: x % 2 == 0, args)))

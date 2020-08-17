@@ -1,3 +1,3 @@
-
+data = []
 def store(result):
-    return 
+    return data.append(result)

@@ -1,6 +1,5 @@
 # Write your solution here
 def is_leaf(heap, index): 
-        return
-
-
-    
+        if index >= (len(heap)//2) and index < len(heap):
+                return True
+        return False

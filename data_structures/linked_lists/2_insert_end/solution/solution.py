@@ -10,7 +10,7 @@ class linkedList:
     def insert_at_end(self, data):
         current_node = self.head
         previous_node = self.head
-        while not current_node is None:
+        while current_node != None:
             previous_node = current_node
             current_node = current_node.next
         new_node = Node(data)

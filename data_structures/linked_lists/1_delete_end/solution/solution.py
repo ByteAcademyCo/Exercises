@@ -1,10 +1,10 @@
 # Write your answers here
 class Node:
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.next = None
-    def __str__(self):
-        return str(self.data)
+    # def __str__(self):
+        # return str(self.data)
 
 class linkedlist:
     def __init__(self, head=None):

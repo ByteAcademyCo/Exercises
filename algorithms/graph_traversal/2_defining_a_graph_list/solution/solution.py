@@ -1,1 +1,6 @@
-adjacency_list = {}
+adjacency_list = {
+    0: [], 
+    1: [2], 
+    2: [1, 3], 
+    3: [1]
+}

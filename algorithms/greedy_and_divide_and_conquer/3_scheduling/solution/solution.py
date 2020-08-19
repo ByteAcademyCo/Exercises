@@ -1,4 +1,3 @@
-
 def task_schedule(tasks):
     tasks.sort(key = lambda x: x[1])
     number_of_tasks = 0

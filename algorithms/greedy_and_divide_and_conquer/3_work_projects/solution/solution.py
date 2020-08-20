@@ -1,3 +1,3 @@
 
 def max_profits(projects):
-    return
+    pass

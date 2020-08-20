@@ -10,7 +10,9 @@ In the *solution.py* file, define a function `frequency_array_cumulative` that c
 ## Example
 ```
 lst = [1, 1, 4, 3, 8, 5, 9, 8, 8, 4, 6]
-frequency_array(lst) => [0, 2, 2, 3, 5, 6, 7, 7, 10, 11]
+lstsorted = [1, 1, 3, 4, 4, 5, 6, 8, 8, 8, 9]
+
+frequency_array_cumulative(lst) => [0, 2, 2, 3, 5, 6, 7, 7, 10, 11]
 ```
 The largest element in `lst` is `9`, so our returned list has length `10`. In the returned list we can see there are no `0`s in `lst`, two `1`s in `lst`, no `2`s in `lst`, so our cumulative count at position `2` in the `lst` remains `2`, there is one `3` in `lst`, so the cumulative count at `3` becomes `3`, there are two `4`s in `lst`, so the cumulative count at `4` becomes `5`, and so on.
 

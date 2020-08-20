@@ -8,24 +8,25 @@ class LinkedList:
         self.head = head
     
     def sort_ll(self):
-        current = self.head 
-        index = None
-          
+        # if head is None, list is sorted.
         if self.head == None:  
-                return 
-        else:  
-            while(current != None):  
-                #Node index will point to node next to current  
-                index = current.next  
-                  
-                while(index != None):  
-                    #If current node's data is greater than index's node data, swap the data between them  
-                    if(current.value > index.value):  
-                        temp = current.value  
-                        current.value = index.value 
-                        index.value = temp  
-                    index = index.next  
-                current = current.next
+            return 
+        # set current node to head node
+        current = self.head 
+        # set index to None
+        next_node = None
+        # itterate though the linked list
+        while(current != None):  
+            # next_node will point to node next to current  
+            next_node = current.next  
+            while(next_node != None):  
+                # If current node's data is greater than index's node data, swap the data between them  
+                if(current.value > next_node.value):  
+                    temp = current.value  
+                    current.value = next_node.value 
+                    next_node.value = temp  
+                next_node = next_node.next  
+            current = current.next
 
 n1 = ListNode(5)
 n2 = ListNode(6, n1)
@@ -41,10 +42,6 @@ def printlst(lst):
 
 printlst(llst)
 llst.sort_ll()
-print(llst.head.next.next.value)
-
-llst.sort_ll()
-
 printlst(llst)
 
 

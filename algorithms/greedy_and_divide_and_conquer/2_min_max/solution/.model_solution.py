@@ -19,9 +19,12 @@ def min_max_divider(lst, low, high):
           
         # If there are more than 2 elements 
         mid = int((low + high) / 2) 
+        # recuse to find the min, max in the sublist from low to mid
         min1, max1 = min_max_divider(lst, low, mid) 
+        # recuse to find the min, max in the sublist from mid to high
         min2, max2 = min_max_divider(lst, mid + 1, high) 
-  
+    # return the global min, max by taking the min and max of the mins
+    # and maxs in the two sublists
     return (min(min1, min2), max(max1, max2))
 
 

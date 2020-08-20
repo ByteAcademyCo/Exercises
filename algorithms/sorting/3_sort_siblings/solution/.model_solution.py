@@ -1,6 +1,8 @@
 def sib_compare(sib_tup1, sib_tup2):
+    # if age of sib1 < age of sib2 
     if sib_tup1[1] < sib_tup2[1]:
         return "less"
+    # if ages are equal, compare names of sibs
     elif sib_tup1[1] == sib_tup2[1] and sib_tup1[0] < sib_tup2[0]:
         return "less"
     else:

@@ -1,6 +1,6 @@
 def median_of_medians(lst):
-    return
+    pass
     
 def quick_sort(lst):
-    return
+    pass
 

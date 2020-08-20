@@ -9,5 +9,5 @@ def test_solution():
     assert solution.make_change(450, denominations1) == 3
     assert solution.make_change(50, denominations1) == 1
     assert solution.make_change(233, denominations2) == 10
-    assert solution.make_change(15, denominations3) == -1
+    assert solution.make_change(30, denominations3) == -1
     assert solution.make_change(77, denominations4) == 77

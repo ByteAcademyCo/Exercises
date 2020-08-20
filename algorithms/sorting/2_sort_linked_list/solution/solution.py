@@ -8,7 +8,7 @@ class LinkedList:
         self.head = head
     
     def sort_ll(self):
-        ...
+        pass
 
 
   

@@ -1,2 +1,2 @@
 def tribonacci(n):
-    return
+    pass

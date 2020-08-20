@@ -5,6 +5,7 @@ def tribonacci(n):
         return 0
     elif n == 2:
         return 1
+    # create a memo list to store the ith tribonacci number at memo[i]
     memo = [-1 for i in range(n+1)]
     memo[0] = 0
     memo[1] = 0

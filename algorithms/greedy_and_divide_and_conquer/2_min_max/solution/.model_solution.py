@@ -16,7 +16,6 @@ def min_max_divider(lst, low, high):
             min_elem = lst[low] 
         return (min_elem, max_elem) 
     else: 
-          
         # If there are more than 2 elements 
         mid = int((low + high) / 2) 
         # recuse to find the min, max in the sublist from low to mid

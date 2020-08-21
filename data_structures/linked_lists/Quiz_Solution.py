@@ -11,15 +11,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
-items = Node(4)
-items.left = Node(2)
-items.right = Node(6)
-items.left.left = Node(1)
-items.left.right = Node(3)
-items.right.left = Node(5)
-items.right.right = Node(7)
-my_tree_node = TreeNode(items)
-# my_tree_node = TreeNode(items, items.left, items.right, items.left.left, items.left.right, items.right.left, items.right.right)
+items = TreeNode(4)
+items.left = TreeNode(2)
+items.right = TreeNode(6)
+items.left.left = TreeNode(1)
+items.left.right = TreeNode(3)
+items.right.left = TreeNode(5)
+items.right.right = TreeNode(7)
+my_tree_node = Tree(items)
 
 #Question2
 class LinkedList:

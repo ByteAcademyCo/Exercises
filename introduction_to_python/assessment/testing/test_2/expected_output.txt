@@ -4,6 +4,6 @@ Error: Over Max Quantity.
 Error: Wasif Not Enrolled.
 Wasif Enrolled.
 Error: Wasif Already Enrolled.
-Vending Machine cost for Coca-Cola is $100
+Vending Machine cost for Coca-Cola is $100.0.
 Wasif has $10.
 Error: Insufficient Funds.

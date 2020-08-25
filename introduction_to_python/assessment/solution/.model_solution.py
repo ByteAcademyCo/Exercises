@@ -1,56 +1,128 @@
 class VendingMachine:
+    max_cap = 10
     def __init__(self):
-        pass
+        self._sodas = {"Coca-Cola": 5,
+                        "Sprite": 5,
+                        "Mountain-Dew": 5}
+        self._soda_costs = {"Coca-Cola": 2.0,
+                            "Sprite": 2.0,
+                            "Mountain-Dew": 2.0}
 
     def set_machine_cost(self, soda, cost):
-        pass
+        self._soda_costs[soda] = cost
+        return f'Vending Machine cost for {soda} is ${cost}.'
 
     def get_vending_machine_stock(self):
-        pass
+        Coca_Cola_amt = self._sodas["Coca-Cola"]
+        Sprite_amt = self._sodas["Sprite"]
+        Mountain_Dew_amt = self._sodas["Mountain-Dew"]
+        return f'Vending Machine has {Coca_Cola_amt} Coca-Cola, {Sprite_amt} Sprite, and {Mountain_Dew_amt} Mountain-Dew.'
+
     
 
 class SodaShop:
     def __init__(self):
-        pass
+        self._inventory = {"Coca-Cola": 10,
+                        "Sprite": 10,
+                        "Mountain-Dew": 10}
+        self._inventory_costs = {"Coca-Cola": 1.0,
+                                 "Sprite": 1.0,
+                                 "Mountain-Dew": 1.0}
 
     def set_shop_cost(self, soda, cost):
-        pass
+        self._inventory_costs[soda] = cost
+        return f'Soda Shop cost for {soda} is ${cost}.'
     
     def create_soda(self, soda, amount):
-        pass
+        self._inventory[soda] += amount
+        return f'{amount} {soda} Created.'
 
     def get_shop_stock(self):
-        pass
-
+        Coca_Cola_amt = self._inventory["Coca-Cola"]
+        Sprite_amt = self._inventory["Sprite"]
+        Mountain_Dew_amt = self._inventory["Mountain-Dew"]
+        return f'Soda Shop has {Coca_Cola_amt} Coca-Cola, {Sprite_amt} Sprite, and {Mountain_Dew_amt} Mountain-Dew.'
+        
 class Student:
     def __init__(self, name="", id=None):
-        pass
+        self._name = name
+        self._id = id
+        self._id_card_funds = 10
     
     def __str__(self):
-        pass
+        return self._name
 
 class UniversityAdministrator:
     def __init__(self, institution_name=""):
-        pass
+        self._institution_name = institution_name
+        self._funds = 100.0
+        self._students = {}
+        self._student_count = 0
+        self._vending_machine = VendingMachine()
     
     def enroll_student(self, student):
-        pass
+        namelst = [s._name for s in self._students.values()]
+        if student in namelst:
+            return f'Error: {student} Already Enrolled.'
+        else:
+            self._student_count += 1
+            new_student = Student(student, self._student_count)
+            self._students[self._student_count] = new_student
+            return f'{student} Enrolled.'
 
     def add_funds(self, student, funds):
-        pass
+        for s in self._students.values():
+            if s._name == student:
+                s._id_card_funds += funds
+                return f'${funds} Added to {student}.'
+        return f'Error: {student} Not Enrolled.'
 
     def buy_soda(self, student, soda):
-        pass
+        for s in self._students.values():
+            if s._name == student:
+                if s._id_card_funds >= self._vending_machine._soda_costs[soda]:
+                    s._id_card_funds -= self._vending_machine._soda_costs[soda]
+                    self._vending_machine._sodas[soda] -= 1
+                    self._funds += self._vending_machine._soda_costs[soda]
+                    return f'{student} Bought {soda}.'
+                return f'Error: Insufficient Funds.'
+        return f'Error: {student} Not Enrolled.'
 
     def get_student_funds(self, student):
-        pass
+        for s in self._students.values():
+            if s._name == student:
+                funds = s._id_card_funds
+                return f'{student} has ${funds}.'
+        return f'Error: {student} Not Enrolled.'
     
     def get_university_funds(self):
-        pass
+        funds = self._funds
+        return f'University has ${funds}.'
 
     def refill_vm(self, soda1, amount1, soda2, amount2, soda3, amount3, shop):
-        pass
+        num_soda1 = self._vending_machine._sodas[soda1] + amount1
+        num_soda2 = self._vending_machine._sodas[soda2] + amount2
+        num_soda3 = self._vending_machine._sodas[soda3] + amount3
+        cost = amount1 * shop._inventory_costs[soda1]
+        cost += amount2 * shop._inventory_costs[soda2]
+        cost += amount3 * shop._inventory_costs[soda3]
+        if shop._inventory[soda1] < amount1 or shop._inventory[soda2] < amount2 or shop._inventory[soda3] < amount3:
+            return f'Error: Shop out of soda.'
+        elif self._funds < cost:
+            return f'Error: Insufficient Funds.'
+        elif num_soda1 > self._vending_machine.max_cap or num_soda2 > self._vending_machine.max_cap or num_soda3 > self._vending_machine.max_cap:
+            return f'Error: Over Max Quantity.'
+        else:
+            self._vending_machine._sodas[soda1] = num_soda1
+            self._vending_machine._sodas[soda2] = num_soda2
+            self._vending_machine._sodas[soda3] = num_soda3
 
+            shop._inventory[soda1] -= amount1
+            shop._inventory[soda2] -= amount2
+            shop._inventory[soda3] -= amount3
+
+            self._funds -= cost
+            return f'Refilled Machine with {amount1} {soda1}, {amount2} {soda2}, {amount3} {soda3}.'
 
 # To test your code: navigate to the solution folder in your terminal
 # and type 'python3 vending_machine.py ../testing/test_n/input.txt'

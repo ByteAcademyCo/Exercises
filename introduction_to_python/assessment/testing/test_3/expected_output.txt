@@ -1,15 +1,15 @@
-Enrolled Wasif.
-Enrolled Anton.
-Enrolled Smith.
+Wasif Enrolled.
+Anton Enrolled.
+Smith Enrolled.
 Wasif Bought Coca-Cola.
-Vending Machine cost for Mountain-Dew is $5.
+Vending Machine cost for Mountain-Dew is $5.0.
 Anton Bought Mountain-Dew.
 Smith Bought Mountain-Dew.
-University has $112.
+University has $112.0.
 Vending Machine has 4 Coca-Cola, 5 Sprite, and 3 Mountain-Dew.
-Soda Shop cost for Mountain-Dew is $100.
-Error: Insufficent Funds.
-Refilled Machine with 5 Coca-Cola, 5 Sprite, and 0 Mountain-Dew.
+Soda Shop cost for Mountain-Dew is $100.0.
+Error: Insufficient Funds.
+Refilled Machine with 5 Coca-Cola, 5 Sprite, 0 Mountain-Dew.
 Wasif Bought Mountain-Dew.
 Error: Insufficient Funds.
 Vending Machine has 9 Coca-Cola, 10 Sprite, and 2 Mountain-Dew.

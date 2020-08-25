@@ -36,9 +36,9 @@ You are hired as a software engineer at VendMachineCo, a start-up that sells ven
 
 Thankfully your team lead has a technical background. He has turned the description above into a formalized specification for a Python program described below.
 
-Write a program `vending_machine.py` that reads a file called `input.txt` that will contain a sequence of the commands below (one per line) and output corresponding messages (one per line) in `output.txt`. If no file is supplied, read the commands from standard input using the `input()` function and display the output on standard output using the `print()` function.
+Write a program `vending_machine.py` that reads a file called `input.txt` that will contain a sequence of the commands below (one per line) and output corresponding messages (one per line) in `output.txt`. You are provided with the code to read and write to the files. You are also provided a command line interface to test your code. 
 
-| Function       | Input | Output | Description |
+| Method       | Input | Output | Description |
 |:-----------:|:----------:|:------:|:-----------:|
 | `enroll_student` | `student` | * `'{student} Enrolled.'` if `student` successfully enrolled<br>* `'Error: {student} Already Enrolled.'` if `student` already enrolled | Enrolls the student `student` into the university | 
 | `add_funds` | `student`, `funds` | * `'${funds} Added to {student}.'` if funds successfully added<br>* `'Error: {student} Not Enrolled.'` if `student` is not enrolled | Adds `funds` funds to the student `student` |
@@ -50,7 +50,7 @@ Write a program `vending_machine.py` that reads a file called `input.txt` that w
 | `get_university_funds` | `None` | * `'University has ${funds}.'` | Gets the `funds` for the university |
 | `get_vending_machine_stock` | `None` | * `'Vending Machine has {amount} Coca-Cola, {amount} Sprite, and {amount} Mountain-Dew.'` | Gets the stock remaining in the vending machine |
 | `get_shop_stock` | `None` | * `'Soda Shop has {amount} Coca-Cola, {amount} Sprite, and {amount} Mountain-Dew.'` | Gets the stock remaining in the soda shop |
-| `refill_vm` | `{soda} {amount}, {soda} {amount}, {soda} {amount}`  | * `'Refilled Machine with {amount} {soda}, {amount} {soda}, {amount} {soda}.'` if successfully refilled machine<br>* `'Error: Insufficient Funds.'` if university does not have enough funds<br>* `'Error: Over Max Quantity.'` if refilling makes machine have more than 10 of any kind of `soda`<br>* `'Error: Shop out of soda.'` if shop is out of a specific soda | Refills the vending machine with the amounts specified |
+| `refill_vm` | `{soda} {amount}, {soda} {amount}, {soda} {amount}`  | * `'Error: Shop out of soda.'` if shop is out of a specific soda<br>* `'Error: Insufficient Funds.'` if university does not have enough funds<br>* `'Error: Over Max Quantity.'` if refilling makes machine have more than 10 of any kind of `soda`<br>* `'Refilled Machine with {amount} {soda}, {amount} {soda}, {amount} {soda}.'` if successfully refilled machine<br> | Refills the vending machine with the amounts specified.<br> You should check each condition in the given order. |
 | `quit` | `None` | * `None` | Exits the program
 
 ### Types
@@ -63,21 +63,17 @@ Write a program `vending_machine.py` that reads a file called `input.txt` that w
 | `amount`     | `int`   | Representing the quantity of a soda for the university or soda shop |
 
 ## Example
-```
->>> enroll_student Wasif
-Wasif Enrolled.
->>> add_funds Wasif 100
-$100 Added to Wasif.
->>> buy_soda Wasif Sprite
-Wasif Bought Sprite.
->>> get_university_funds
-University has $87.
->>> get_student_funds Wasif
-Wasif has $108.
->>> get_vending_machine_stock
-Vending Machine has 5 Coca-Cola, 4 Sprite, and 5 Mountain Dew.
->>> quit
-```
+
+| input.txt | output.txt |
+|:------:|:------:|
+| enroll_student Wasif | Wasif Enrolled. |
+| add_funds Wasif 100 | $100.0 Added to Wasif. |
+| buy_soda Wasif Sprite | Wasif Bought Sprite. |
+| get_university_funds | University has $102.0. |
+| get_student_funds Wasif | Wasif has $108.0. |
+| get_vending_machine_stock | Vending Machine has 5 Coca-Cola, 4 Sprite, and 5 Mountain Dew. |
+| quit | |
+
 
 ## Testing
 We have provided 3 basic tests located in the `testing/` subdirectory called `test_1`, `test_2`, and `test_3` that test for basic functionality. These contain sample `input.txt` to run your code with, as well as `expected_output.txt` to check your answer against. Be sure to do comprehensive testing on your own as the majority of our tests are hidden from you that will test all sorts of interactions. 

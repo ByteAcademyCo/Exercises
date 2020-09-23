@@ -1,2 +1,0 @@
-def tribonacci(n):
-    pass

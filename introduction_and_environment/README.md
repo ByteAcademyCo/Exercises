@@ -1,9 +1,8 @@
-# Exercise Organization
+# Introduction and Environment
 
-| Section ID | Section Name |
-|:-----------:|:--------:|
-| 1 | [Hello World]() |
-| 2 | [UNIX and Bash]() |
-| 3 | [git]() |
-| 4 | [Introduction to Programming]() |
-| 5 | [Data Types and Control Flow]() |
+## Overview
+* Hello World
+* UNIX and Bash
+* Git
+* Introduction to Programming
+* Data Types and Control Flow

@@ -9,7 +9,6 @@ def test_solution(monkeypatch):
     monkeypatch.setattr('builtins.print',g)
 
     import solution
-    assert solution.x==200
-    assert solution.y==201
-   
+    assert type(solution.x) == int and type(solution.y) == int
+    assert solution.result == False
 

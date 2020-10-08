@@ -1,0 +1,7 @@
+EXAMPLE ="man test"
+ONE= "grep elephant book.txt"
+TWO = "mv notes.txt newdir"
+THREE= "grep -r string testdir"
+FOUR = "rm -r empty"
+FIVE = "cd /"
+SIX = "rm -r -i Downloads"

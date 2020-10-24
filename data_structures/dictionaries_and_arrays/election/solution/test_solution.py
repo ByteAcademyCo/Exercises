@@ -1,5 +1,5 @@
 def test_solution():
-    from solution import election_winner
+    from election import election_winner
 
     clst1 = ["Trump", "Bernie", "Bernie", "Oprah", "Biden", "Bernie", "Trump"]
     assert election_winner(clst1) == "Bernie"

@@ -1,5 +1,5 @@
 def test_solution():
-    from solution import intersect_lists
+    from intersect import intersect_lists
 
     lst1 = [1, "a", -2, 1.4]
     lst2 = ["cat", 0.5, "a", 1, 2]

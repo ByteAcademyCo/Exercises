@@ -1,5 +1,4 @@
 # Code your solution here
-x = 1111
-y = 1111
+x = 0
+y = 0
 result = x == y
-print(result)

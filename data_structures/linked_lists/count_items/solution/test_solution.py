@@ -1,5 +1,5 @@
 def test_solution():
-    from solution_2 import Node, linkedList
+    from solution_3 import Node, linkedList
 
     items = linkedList()
     items.head = Node(20)

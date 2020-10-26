@@ -1,5 +1,5 @@
 def test_solution():
-    from solution import Node, linkedlist
+    from delete_end import Node, linkedlist
 
     items = linkedlist()
     items.head = Node(20)

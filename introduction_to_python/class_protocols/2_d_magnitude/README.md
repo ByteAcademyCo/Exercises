@@ -9,9 +9,9 @@ vec1 = Vector3D(1, 5, 3)
 vec2 = Vector3D(4, 4, 1)
 vec3 = Vector3D(1, 5, 2)
 
-vec1.magnitude() == sqrt(35)
-vec2.magnitude() == sqrt(33)
-vec3.magnitude() == sqrt(30)
+vec1.abs() == sqrt(35)
+vec2.abs() == sqrt(33)
+vec3.abs() == sqrt(30)
 ```
 ## Testing
 * To test your solution, type 'pytest' within the **solution** subdirectory

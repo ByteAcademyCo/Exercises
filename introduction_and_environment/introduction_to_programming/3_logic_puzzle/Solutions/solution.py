@@ -1,4 +1,4 @@
-a = []
-b = "rocketship"
-c = 0.0
-d = 5
+a = None
+b = None
+c = None
+d = None

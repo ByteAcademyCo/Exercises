@@ -1,16 +1,16 @@
 
 
 def test_solution(monkeypatch):
-    x = "Good Morning "
-    y = "Universe"
-    ret_val1 = None
+    x = ["Good Morning ", "Universe"]
+    i = -1
 
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1 = num1
+    def f():
+        nonlocal x
+        nonlocal i
+        i+=1
+        return x[i]
 
-    monkeypatch.setattr('builtins.print',g)
+    monkeypatch.setattr('builtins.input',f)
 
     import solution
-    assert solution.string_1 == x
-    assert solution.string_2 == y
+    assert solution.result == "Good Morning Universe"

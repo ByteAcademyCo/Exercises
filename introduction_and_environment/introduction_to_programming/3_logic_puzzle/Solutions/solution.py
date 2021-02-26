@@ -1,4 +1,1 @@
-a = None
-b = None
-c = None
-d = None
+# Define variables a, b, c, d

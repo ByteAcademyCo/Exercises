@@ -11,5 +11,4 @@
 | medium_e2 | [Operators](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/2_operators) |
 | hard_e1 | [Logical Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_1) |
 | hard_e2 | [Logical Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_logical_operators_2) |
-| hard_e3 | [Bitwise Operators 1](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_1) |
-| hard_e4 | [Bitwise Operators 2](https://github.com/ByteAcademyCo/Introduction-And-Environment/tree/master/exercises/introduction_to_programming/3_bitwise_operators_2) |
+

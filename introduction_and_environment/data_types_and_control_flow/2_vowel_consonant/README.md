@@ -2,16 +2,14 @@
 
 ## Motivation
 Letters captured from the input method consists of combinations of characters, numbers, vowels and consosnants.
-logic building here involves retreiving only vowels or consonants.
 
 ## Problem Description
-Write a Python script  that asks the user for a character and declare in object `letter`.
-Your goal is to check whether the character is a vowel or consonent and store the appropriate result in variable `data`.
-Print the result.
+Write a Python script that asks the user for a character as input and store this in an object called `letter`.
+Your goal is to check whether the character is a vowel or consonent. Define a variable called `result`, and set this to the string `"vowel"` if the character was a vowel, and `"cosonant"` if the character was a cosonant. Note: Characters can be upper or lowercase letters.
 
 
 ## Testing
-* done
+* To test your solution, simply type 'pytest' within the **Solutions** subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory

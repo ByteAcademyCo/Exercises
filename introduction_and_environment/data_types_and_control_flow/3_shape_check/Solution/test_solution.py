@@ -1,20 +1,17 @@
 def test_solution(monkeypatch):
-    x='5'
-    ret_val1= None
+    x=[3, 5, 4, 8, 9, 7, 6, 1]
+    i = -1
 
     def f():
         nonlocal x
-        return x
-
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
+        nonlocal i 
+        i += 1 
+        return x[i]
 
     monkeypatch.setattr('builtins.input',f)
-    monkeypatch.setattr('builtins.print',g)
 
     import solution
-    assert solution.figure==x
+    assert solution.g_lst == ['Triangle', 'Pentagon', 'Quadrilateral', 'Octagon', 'Nonagon', 'Heptagon', 'Hexagon']
 
 
 

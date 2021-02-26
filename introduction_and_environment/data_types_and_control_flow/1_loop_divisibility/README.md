@@ -1,15 +1,14 @@
 # Loop Divisible 
 
 ## Motivation
-Generate sequence of numbers which are divisible for 5 and 7 , having a limit range of upto 50.
+Generate sequence of numbers which are divisible for 5 and 7 in a loop.
 
 ## Problem Description
-Write a Python script that declares a variable `x` containing value hidden from you. 
-Construct a loop to run upto length of `x` to retrieve values which are divisible by 5 and 7 , store the result values in `data` variable. 
-Print the result.
+Write a Python script that declares a variable `x` wich is set to a value of 50.
+Construct a loop that goes from `0` to `x` inclusive, and stores all the values which are divisible by 5 and 7 in a variable called `data`. 
 
 ## Testing
-* done
+* To test your solution, simply type 'pytest' within the **Solutions** subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory

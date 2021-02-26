@@ -1,10 +1,5 @@
-import pytest
 from solution import a, b, c, d
 
-# a = []
-# b = "rocketship"
-# c = 0.0
-# d = 5
 
 def test_solution():
     assert type(a) == list

@@ -4,16 +4,16 @@
 
 
 ## Problem Description 
-Given two binary values x and y, compute the following bitwise operations on that 
+Given two binary values `x` and `y`, compute the following bitwise operations:
 
 1.Bitwise XOR (^)
 2.Bitwise right shift (>>)
 3.Bitwise left Shift (<<)
 
-Return the solutions in objects `Answer_Xor`,`Answer_right_shift` and `Answer_left_shift` respectively and print the same.
+In the the **solution.py** file, create three variables `ans_xor`,`ans_rs` and `ans_ls` to store the resulting values of `x` xor `y`, `x` right-shift `y` and `x` leftshift `y` respectively.
 
 ## Testing
-* done
+* To test your solution, type 'pytest' within the **solution** subdirectory
 
 ## Submission
 * Submit your answers in the *solution.py* file within the *Solutions* subdirectory within this directory

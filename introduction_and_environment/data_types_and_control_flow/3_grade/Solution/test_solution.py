@@ -1,20 +1,7 @@
-def test_solution(monkeypatch):
-    x=80
-    ret_val1= None
-
-    def f():
-        nonlocal x
-        return x
-
-    def g(num1):
-        nonlocal ret_val1
-        ret_val1=num1
-
-    monkeypatch.setattr('builtins.input',f)
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
-    assert solution.mark==x
+def test_solution():
+    from solution import letter_grades
+    assert letter_grades == ['F', 'C', 'A', 'A', 'F', 'B', 'D']
+    
 
 
 

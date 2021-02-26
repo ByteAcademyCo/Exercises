@@ -4,8 +4,7 @@
 Python provides us with the input() method in order to capture data from the user.
 
 ## Problem Description
-Write a Python script that asks the user for name and age . Store these values in variables called `name` and `age`, respectively.
-Print the values.
+Write a Python script that asks the user for two inputs, name and age. Store these values in variables called `name` and `age`, respectively.
 
 ## Testing
 * To test your solution, type 'pytest' within the **solution** subdirectory

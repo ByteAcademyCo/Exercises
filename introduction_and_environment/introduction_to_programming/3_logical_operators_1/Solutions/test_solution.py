@@ -1,17 +1,10 @@
-import pytest
 
-ret_val_1= None
+def test_solution():
+    from solution import x, y, z
 
-def g(x):
-    global ret_val_1
-    ret_val_1 = x
-
-def test_solution(monkeypatch):
-    monkeypatch.setattr('builtins.print',g)
-    
-    import solution as s
-
-    assert ret_val_1 == False
+    assert y == 0
+    assert x != 0
+    assert z != 0
     
 
     

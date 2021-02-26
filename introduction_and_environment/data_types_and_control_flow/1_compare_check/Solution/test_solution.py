@@ -1,14 +1,5 @@
-
-def test_solution(monkeypatch):
-    ret_val1= None
-
-    def g(num1):
-       nonlocal ret_val1
-       ret_val1=num1
-
-    monkeypatch.setattr('builtins.print',g)
-
-    import solution
+import solution
+def test_solution():
     assert type(solution.x) == int and type(solution.y) == int
-    assert solution.result == False
+    assert (solution.x == solution.y) == solution.result
 

@@ -1,16 +1,8 @@
-import pytest
+from solution import answer
 
-ret_val= None
-
-def g(result):
-    global ret_val
-    ret_val = result
-
-def test_solution(monkeypatch):
-    monkeypatch.setattr('builtins.print',g)
+def test_solution():
+    assert answer == "d"
     
-    import solution
-    
-    assert ret_val == "Gigabyte"
+
     
 

@@ -1,2 +1,1 @@
-a = 1
-b = 2
+# Define variables x, y, and z

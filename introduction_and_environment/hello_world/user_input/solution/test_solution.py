@@ -1,10 +1,14 @@
 
 def test_solution(monkeypatch):
-    print_val = 0
-    def f(x):
-        nonlocal print_val
-        print_val = x
-    monkeypatch.setattr('builtins.input', lambda: 100)
-    monkeypatch.setattr('builtins.print', f)
-    import solution
-    assert solution.first_num == solution.second_num == solution.third_num == print_val == 100
+    x = [4, 5, 6]
+    i = -1
+    def f():
+        nonlocal x
+        nonlocal i
+        i+=1
+        return x[i]
+    monkeypatch.setattr('builtins.input', f)
+
+    from solution import num1, num2, num3, avg
+    assert (sum([num1,num2,num3])/3) == avg
+

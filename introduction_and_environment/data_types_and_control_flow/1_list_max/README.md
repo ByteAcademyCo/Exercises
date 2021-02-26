@@ -1,6 +1,6 @@
 # Max in a 5 integer list
 
-You are provided with a list named `L` containing 5 integers whos contents is hidden from you in `solution.py`. Your goal is to determine which integer in the list is the maximum integer and store this integer in the `LIST_MAX` variable provided to you.
+You are provided with a list named `L` containing 5 integers whos contents will be hidden from you in the `provided_code.py`. Don't peek in this file! Your goal is to determine which integer in the list is the maximum integer and store this integer in the `LIST_MAX` variable provided to you.
 
 * You can only use conditionals to solve this question
   * Do not use iteration

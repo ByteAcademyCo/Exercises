@@ -1,3 +1,4 @@
 from provided_code import L
 
-LIST_MAX = 0
+#Fill in code here
+ LIST_MAX = ...

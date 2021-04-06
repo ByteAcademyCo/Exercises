@@ -2,7 +2,7 @@
 def test_solution(monkeypatch):
     x = [4, 5, 6]
     i = -1
-    def f():
+    def f(string):
         nonlocal x
         nonlocal i
         i+=1

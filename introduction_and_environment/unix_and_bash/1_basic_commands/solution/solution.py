@@ -2,9 +2,9 @@
 ONE = 'man'
 
 # Assign the correct strings below
-TWO = 
-THREE = 
-FOUR = 
-FIVE = 
-SIX = 
-SEVEN = 
+TWO = 'ls'
+THREE = 'mkdir abc'
+FOUR = 'touch abc.txt'
+FIVE = 'cp abc.txt bcd.txt'
+SIX = 'mv abc bcd'
+SEVEN = 'rm | rm -d empty' 

@@ -1,7 +1,7 @@
 # Employee Class - Sort Employees
 
 # Problem Description
-Define a function `sort_employees` that consumes `employee_lst`, a list of employee objects as defined in the previous question, and returns a list of employee names sorted in alphabetical order.
+Using your `Employee` class defined in a previous question, define a function `sort_employees` that consumes `employee_lst`, a list of employee objects as defined in the previous question, and returns a list of employee names sorted in alphabetical order.
 Hint: `from operator import attrgetter`
 
 ## Example

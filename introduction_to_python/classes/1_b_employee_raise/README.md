@@ -1,7 +1,7 @@
 # Employee Class - Give Raises
 
 # Problem Description
-Define a function `give_raises` that consumes `employee_lst`, a list of employee objects as defined in the previous question, and mutates each employee object in the list such that each employee is given a raise to their salary according to the following criteria:
+Define a function `give_raises` that consumes `employee_lst`, a list of employee objects as defined in the previous question, and mutates each employee object in the list such that each employee is given a raise to their salary according to the following criteria:Copy the class Employee from previous question's solution.
 * An employee gets a raise of $5,000 if they have been at the company for <= 5 years.
 * An employee gets a raise of $8,000 if they have been at the company for > 5 and < 10 years.
 * An employee gets a raise of $10,000 if they have been at the company for >= 10 years.

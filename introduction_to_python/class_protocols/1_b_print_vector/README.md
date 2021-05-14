@@ -1,7 +1,7 @@
 # Class Protocols - Vector Class Definition
 
 ## Problem Description
-Define a python magic method `__str__` in the `Vector3D` class that can be used by python's built in `print` method to nicely print out a vector object. When printing a vector you should print out `(x = X, y = Y, z = Z`), where `X`, `Y`, and `Z` are the values in the given vector object.
+Define a python magic method `__str__` in the `Vector3D` class that can be used by python's built in `print` method to nicely print out a vector object. When printing a vector you should print out `(x = X, y = Y, z = Z)`, where `X`, `Y`, and `Z` are the values in the given vector object.
 
 For Example:
 ```

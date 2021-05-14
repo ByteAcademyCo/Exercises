@@ -8,7 +8,7 @@ We can define a binary tree (BT) to contain the following parts:
 3. Right (of Type None or BT)
 
 # Problem Description
-Define a python class `Node` constructor having arguments `key` representing the individual node data and `left` and `right`representing the respective children. The argumets should default to `None` if no values are given for `key`, `left`, and `right`.
+Define a python class `Node` constructor having arguments `key` representing the individual node data and `left` and `right`representing the respective children. The arguments should default to `None` if no values are given for `key`, `left`, and `right`.
 Create a tree in object `sample_tree` with 5 as the root node key, 4 as the key of the left child and 7 as the key of the right child. 
 
 # Example

@@ -5,7 +5,7 @@ We use Dynamic Programming algorithms when we have overlapping subproblems. If w
 Dynamic programing can optimize the time complexity of a problem from exponential `O(2^n)` to polynomial `O(n^c)`, for some constant `c`.
 
 ## Problem Description
-You are going on a camping trip and you have a knapsack you wish to pack with a weight capacity of `x` lbs. You are given a dictiomary where the keys are strings containing the names of items which you wish bring on your trip, which are mapped to a touple, containing the value of the given item and weight in lbs of the given item. The higher the value of the item, the more important it is to you to bring on your trip.
+You are going on a camping trip and you have a knapsack you wish to pack with a weight capacity of `x` lbs. You are given a dictionary where the keys are strings containing the names of items which you wish to bring on your trip, which are mapped to a tuple, containing the value of the given item and weight in lbs of the given item. The higher the value of the item, the more important it is to you to bring on your trip.
 
 In the *solution.py* file, using dynamic programming, define a function `knap_sack` that consumes a positive integer `x` and a dictionary `items`, and returns the maximal value of items you can bring in your knapsack without exceeding the maximal capacity `x`. 
 

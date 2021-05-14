@@ -3,7 +3,7 @@ def test_solution(monkeypatch):
     x = ['Charlie','100']
     index = -1
 
-    def f():
+    def f(string):
         nonlocal index
         nonlocal x
         index += 1
@@ -11,6 +11,6 @@ def test_solution(monkeypatch):
 
     
     monkeypatch.setattr('builtins.input',f)
-    import solution 
-    assert solution.name == 'Charlie'
-    assert solution.age == '100'
+    from solution import name, age  
+    assert type(name) == str
+    assert type(age) == int

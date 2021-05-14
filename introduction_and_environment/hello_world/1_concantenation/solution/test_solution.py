@@ -1,10 +1,8 @@
-
-
 def test_solution(monkeypatch):
     x = ["Good Morning ", "Universe"]
     i = -1
 
-    def f():
+    def f(string):
         nonlocal x
         nonlocal i
         i+=1
@@ -12,5 +10,5 @@ def test_solution(monkeypatch):
 
     monkeypatch.setattr('builtins.input',f)
 
-    import solution
-    assert solution.result == "Good Morning Universe"
+    from solution import string_1, string_2, result
+    assert result == string_1 + string_2

@@ -16,8 +16,8 @@ def test_solution(monkeypatch):
     monkeypatch.setattr("builtins.input", f)
     monkeypatch.setattr("builtins.print", g)
 
-    import app_solution
+    from app_solution import name, age, info
 
-    assert app_solution.name == "John"
-    assert app_solution.age == "100"
-    assert app_solution.info == ret_val1
+    assert name == "John"
+    assert age == "100"
+    assert info == ret_val1

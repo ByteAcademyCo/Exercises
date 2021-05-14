@@ -2,8 +2,8 @@ def test_solution():
     from solution import Vector3D
 
     vec1 = Vector3D(1, 2, 3)
-    vec2 = Vector3D(x=0, y=1, z=2)
-    vec3 = Vector3D(1, 4, 6)
+    vec2 = Vector3D(y=1, z=2)
+    vec3 = Vector3D(1, 4)
 
     assert (vec1 + vec2).x == 1
     assert (vec1 + vec2).y == 3

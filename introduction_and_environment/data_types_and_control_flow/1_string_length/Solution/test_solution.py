@@ -1,8 +1,18 @@
 def test_solution(monkeypatch):
-    x='Hello'
-    monkeypatch.setattr('builtins.input', lambda: x)
+    x=['ByteAcademy']
+    index=-1
 
-    import solution
-    assert solution.strlen == 5
+    def f(string):
+        nonlocal x
+        nonlocal index
+        index+=1
+        return x[index]
+
+    monkeypatch.setattr('builtins.input',f)
+
+    from solution import string, strlen
+    assert type(string) == str
+    assert strlen == len(string)
+  
 
     

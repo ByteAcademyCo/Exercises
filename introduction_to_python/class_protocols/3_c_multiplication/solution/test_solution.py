@@ -1,9 +1,9 @@
 def test_solution():
-    from solution import Vector3D
+    import solution
 
-    vec1 = Vector3D(1, 2, 3)
-    vec2 = Vector3D(y=1, z=3)
-    vec3 = Vector3D()
+    vec1 = solution.Vector3D(1, 2, 3)
+    vec2 = solution.Vector3D(y=1, z=3)
+    vec3 = solution.Vector3D()
     rvec1 = vec1 * 3
     rvec2 = vec2 * 2
     lvec1 = 3 * vec1

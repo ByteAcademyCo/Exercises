@@ -1,9 +1,9 @@
 
 def test_solution(monkeypatch):
-    x = ['Charlie','100']
+    x = ['Charlie', 100]
     index = -1
 
-    def f(string):
+    def f():
         nonlocal index
         nonlocal x
         index += 1

@@ -2,7 +2,7 @@ def test_solution(monkeypatch):
     x = ["Good Morning ", "Universe"]
     i = -1
 
-    def f(string):
+    def f():
         nonlocal x
         nonlocal i
         i+=1
